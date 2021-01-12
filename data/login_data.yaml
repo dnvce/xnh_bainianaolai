@@ -1,0 +1,13 @@
+test_login:
+  test_login_001:
+    username: "xnh_test"
+    password: "xnhtest"
+    toast: Null
+  test_login_002:
+    username: "xnh_test123"
+    password: "xnhtest"
+    toast: "此用户不存在"
+  test_login_003:
+    username: "xnh_test"
+    password: "xnhtest123"
+    toast: "登录密码错误"
